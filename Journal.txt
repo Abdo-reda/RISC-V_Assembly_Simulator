@@ -1,0 +1,41 @@
+Group meeting, November 12, 10:30PM: Reading input from instructions file, adding global variables
+                                     Decided the structure of the program and divided tasks.
+Abdallah,      November 15, 06:38AM: Added reg mapping, Rtype and Itype parsing functions.
+Abdallah,      November 15, 06:05PM: Fixed a small bug in Rtype and Itype.
+
+Abdelrahman,   November 18, 08:30PM: I implemented my instructions (Btype, Utype, Stype) and their functions.
+                                     I also made the code to read the memory addresses and their values.
+                                     I also merged the code we recieved from abdallah and ghada.
+
+Abdallah,      November 18, 05:30PM: Handled lables,
+                                     Updated reading instructions
+                                     Trim function and lui, jal, jalr, auipc instructions.
+
+Ghada,         November 17, 10:30PM: Added support for add, sub, and, or, xor, sll, srl, slt, instructions.
+Ghada,         November 18, 11:00PM: Added support for addi, slti, sltiu, xori, ori, andi, slli, srli, srai, instructions. 
+
+Group meeting, November 18, 05:45PM: Merged the work together and divided new tasks and bug fixes.
+                                     Initial output function.
+
+Group meeting, November 20, 08:15PM: Divided report sections.
+
+Abdallah,      November 23, 08:20AM: Processed text for lui, jal, jalr, auipc
+                                     Fixed UJtype parsing function and edited load instructions.
+                                     Output function updated and bonus 3 added (binary, decimal, hexadecimal).
+                                     User flow and input validation.
+
+Abdelrahman,   November 23, 09:00PM: I fixed lw as it wont change the rd if its x0.
+                                     I fixed the sw and lw instructions when they get an address that is not in the memory.
+                                     I fixed bugs noticed by Ghada on the branching instructions, I fixed them, as well as making sure the proper value of PC is calculated.
+                                     I fixed a bug in the Jalr instruction found by Ghada.
+                                     I fixed a mispelling found by Ghada as well.
+                                     I started writing in the report
+
+Ghada,         November 24, 01:30AM: Tested all the instructions by providing 3 testbenches to be added to the report.
+
+Abdelrahman,   November 24, 03:00PM: I fixed lb, lbu, lhu, lh, sb, sh since they used to only deal with memory that is multiple of 4 but now they deal with correct memory addresses. 
+                                     I also started implementing bonus 7 and writing c programs and their equivalent risc-v.
+
+Abdallah,      November 24, 07:00PM: Added section 2 and 3 (assumptions and bugs) to the report.
+
+Abdelrahman,   November 24, 07:00PM: 6 Additional test programs (bonus 7)
